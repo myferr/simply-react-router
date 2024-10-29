@@ -1,0 +1,26 @@
+{
+  "name": "simply-react-router",
+  "version": "1.0.4",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "router"
+  ],
+  "author": "myferr <https://github.com/myferr> <https://npmjs.com/~myfer>",
+  "license": "MIT",
+  "description": "A simplistic routing library for React.",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1"
+  },
+  "typings": "types/index"
+}
