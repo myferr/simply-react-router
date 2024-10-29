@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Geist Sans";
+  src: url("./fonts//GeistVF.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("./fonts//GeistMonoVF.woff") format("woff2");
+}
+
+* {
+  font-family: "Geist Sans", sans-serif;
+}
+
+.geistmono {
+  font-family: "Geist Mono", monospace !important;
+}
+
+*::selection {
+  mix-blend-mode: difference;
+}
